@@ -28,7 +28,7 @@ def kmeans(X, k, max_iterations=100):
         
         # Verificar si los centroides se han estabilizado
         if np.all(centroids == new_centroids):
-            break
+            break 
         
         centroids = new_centroids
     
